@@ -20,9 +20,9 @@ const Contatos = () => {
                     <a href="https://www.instagram.com/juniorsilva.png/" target="_blank" rel="noopener noreferrer">
                         <BsInstagram className={styles.icone} />
                     </a>
-                    <a href="https://wa.me/5588997433201" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="https://wa.me/5588997433201" target="_blank" rel="noopener noreferrer">
                         <BsWhatsapp className={styles.icone} />
-                    </a>
+                    </a> */}
                     <a href="https://github.com/juniors719" target="_blank" rel="noopener noreferrer">
                         <BsGithub className={styles.icone} />
                     </a>
