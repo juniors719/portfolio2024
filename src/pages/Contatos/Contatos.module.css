@@ -12,11 +12,31 @@
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-block: 1.5rem;
+    gap: 2rem;
 }
 
 .icone {
     font-size: 3rem;
-    color: var(--red)
+    color: var(--red);
+    transition: 0.2s;
+}
+
+.icone:hover {
+    color: var(--primary);
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    .contatos {
+        padding-inline: 20px;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+    .icones {
+        gap: 1rem;
+    }
 }
